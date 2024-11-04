@@ -1029,7 +1029,6 @@
 				ORGANIZATIONNAME = "MAME4iOS Team";
 				TargetAttributes = {
 					925ABCA41E46DCC500997182 = {
-						DevelopmentTeam = ABC8675309;
 						LastSwiftMigration = 1320;
 						ProvisioningStyle = Automatic;
 					};
@@ -1329,6 +1328,7 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 68RB8U748K;
 				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MAME4iOS/MAME4iOS-Prefix.pch";
@@ -1338,6 +1338,8 @@
 				);
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "MAME4iOS/MAME4iOS-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.arcade-games";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1349,6 +1351,7 @@
 					"$(PROJECT_DIR)",
 				);
 				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = pub.para.mame4ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1370,11 +1373,14 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 68RB8U748K;
 				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MAME4iOS/MAME4iOS-Prefix.pch";
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "MAME4iOS/MAME4iOS-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.arcade-games";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1386,6 +1392,7 @@
 					"$(PROJECT_DIR)",
 				);
 				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = pub.para.mame4ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";

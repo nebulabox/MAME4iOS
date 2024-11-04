@@ -32,7 +32,8 @@ if [ "$1" != "ios" ] && [ "$1" != "tvos" ] && [ "$1" != "mac" ] && [ "$1" != "io
 fi
 
 LIBMAME="libmame-$1.a"
-LIBMAME_URL="https://github.com/ToddLa/mame/releases/latest/download/$LIBMAME.gz"
+# LIBMAME_URL="https://github.com/ToddLa/mame/releases/latest/download/$LIBMAME.gz"
+LIBMAME_URL="https://github.com/ToddLa/mame/releases/download/mame0265/libmame-ios.a.gz"
 
 ## only do a clean and get out
 if [ "$2" == "clean" ]; then

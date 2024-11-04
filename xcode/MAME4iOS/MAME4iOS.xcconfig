@@ -15,8 +15,8 @@
 //    you can also set the Development Team via the drop down in the Xcode project editor, for each Target.
 //    you can find your TeamID [here](https://developer.apple.com/account/#/membership)
 
-ORG_IDENTIFIER          = com.example   // CHANGE this to your Organization Identifier.
-DEVELOPMENT_TEAM        = ABC8675309    // CHANGE this to your Team ID. (or select in Xcode project editor)
+ORG_IDENTIFIER          = pub.para   // CHANGE this to your Organization Identifier.
+DEVELOPMENT_TEAM        = 68RB8U748K    // CHANGE this to your Team ID. (or select in Xcode project editor)
 CURRENT_PROJECT_VERSION = 2024.1
 MARKETING_VERSION       = 2024.1
 
@@ -32,9 +32,9 @@ ENTITLEMENTS_TYPE = -Base
 //    139u1 or latest MAME version
 
 // USE THIS LINE for a local build of 139u1 MAME. (via make-ios.sh, make-tvos.sh, or make-mac.sh)
-MAMELIB = libmame-139u1
+// MAMELIB = libmame-139u1
 // USE THIS LINE for a build of current latest MAME (via get-libmame.sh)
-// MAMELIB = libmame
+MAMELIB = libmame
 
 // AppStore build
 TARGET_APPSTORE = 0             // 1=AppStore build, 0=not

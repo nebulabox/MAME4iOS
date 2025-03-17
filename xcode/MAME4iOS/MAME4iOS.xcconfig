@@ -16,7 +16,7 @@
 //    you can find your TeamID [here](https://developer.apple.com/account/#/membership)
 
 ORG_IDENTIFIER          = pub.para   // CHANGE this to your Organization Identifier.
-DEVELOPMENT_TEAM        = 68RB8U748K    // CHANGE this to your Team ID. (or select in Xcode project editor)
+DEVELOPMENT_TEAM        = E24N8SPR73    // CHANGE this to your Team ID. (or select in Xcode project editor)
 CURRENT_PROJECT_VERSION = 2024.1
 MARKETING_VERSION       = 2024.1
 
